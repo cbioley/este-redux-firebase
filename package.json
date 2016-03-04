@@ -20,12 +20,15 @@
   },
   "keywords": [
     "javascript",
+    "React",
     "react-component"
   ],
-  "author": "Michele Memoli <michele@100shapes.com> (http://100shapes.com)",
+  "authors": [
+    "Daniel Steigerwald"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/este/este-redux-firebase/issues"
   },
   "homepage": "",
   "dependencies": {
