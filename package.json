@@ -29,7 +29,10 @@
   },
   "homepage": "",
   "dependencies": {
-    "react": "^0.14.0"
+    "firebase": "^2.4.1",
+    "invariant": "^2.2.0",
+    "react": "^0.14.0",
+    "react-pure-render": "^1.0.2"
   },
   "peerDependencies": {
     "react": "^0.14.0"

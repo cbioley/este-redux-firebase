@@ -1,3 +1,3 @@
-import 'este-firebase-redux'
+// import { firebaseActions, mapAuthToUser, queryFirebase } from 'este-firebase-redux';
 
-import './style.css'
+import './style.css';
