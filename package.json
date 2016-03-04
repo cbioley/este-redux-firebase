@@ -1,0 +1,71 @@
+{
+  "name": "este-firebase-redux",
+  "version": "0.1.0",
+  "private": false,
+  "description": "High order component for integration Firebase into a Redux app",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "./scripts/startSiteDevServer.sh",
+    "commit": "git cz",
+    "build": "./scripts/build.sh",
+    "coverage": "./scripts/coverage.sh",
+    "test": "./scripts/test.sh",
+    "lint": "eslint .",
+    "prepublish": "npm run lint && npm run build",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/este/este-redux-firebase.git"
+  },
+  "keywords": [
+    "javascript",
+    "react-component"
+  ],
+  "author": "Michele Memoli <michele@100shapes.com> (http://100shapes.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "react": "^0.14.0"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.24",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^5.0.0",
+    "babel-tape-runner": "^1.3.1",
+    "commitizen": "^2.5.0",
+    "coveralls": "^2.11.6",
+    "css-loader": "^0.23.1",
+    "cz-conventional-changelog": "^1.1.5",
+    "enzyme": "^2.0.0",
+    "eslint": "^1.6.0",
+    "eslint-config-airbnb": "^0.1.0",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-react": "^3.5.1",
+    "extract-text-webpack-plugin": "^0.3.8",
+    "ghooks": "^1.0.3",
+    "istanbul": "^0.4.2",
+    "react-addons-test-utils": "^0.14.7",
+    "react-hot-loader": "^1.2.3",
+    "style-loader": "^0.13.0",
+    "tape": "^4.4.0",
+    "webpack": "^1.8.11",
+    "webpack-dev-server": "^1.8.2"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run test && npm run lint"
+    },
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

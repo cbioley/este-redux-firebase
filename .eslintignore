@@ -1,0 +1,7 @@
+scripts
+dist
+lib
+**/node_modules
+**/webpack*.config.js
+karma.conf.js
+coverage
