@@ -6,6 +6,6 @@ Standalone module of Este's Firebase/Redux integration lib. Originally written b
 
 To do list:
 - Docs
-- TravisCI
+- CircleCI
 - Coveralls
 - Test
