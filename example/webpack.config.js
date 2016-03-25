@@ -36,7 +36,7 @@ module.exports = {
 
   resolve: {
     alias: {
-      'este-firebase-redux': path.join(__dirname, '../src')
+      'este-redux-firebase': path.join(__dirname, '../src')
     }
   },
 

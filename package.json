@@ -1,5 +1,5 @@
 {
-  "name": "este-firebase-redux",
+  "name": "este-redux-firebase",
   "version": "0.1.1",
   "private": false,
   "description": "High order component for integration Firebase into a Redux app",

@@ -24,9 +24,9 @@ module.exports = {
     }
   }],
   output: {
-    filename: 'dist/Este-firebase-redux.min.js',
+    filename: 'dist/este-redux-firebase.min.js',
     libraryTarget: 'umd',
-    library: 'Este-firebase-redux'
+    library: 'este-redux-firebase'
   },
   plugins: [
     new webpack.NoErrorsPlugin(),
